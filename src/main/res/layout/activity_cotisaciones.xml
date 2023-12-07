@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CotisacionesActivity">
+
+    <EditText
+        android:id="@+id/editTextHonorarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Honorarios del arquitecto"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:id="@+id/editTextGastosGenerales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gastos generales"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <EditText
+        android:id="@+id/editTextMateriales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costos de materiales"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/editTextManoObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costos de mano de obra"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <EditText
+        android:id="@+id/editTextPermisos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costos de permisos y licencias"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <EditText
+        android:id="@+id/editTextContingencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contingencias"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <EditText
+        android:id="@+id/editTextImpuestos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Impuestos y tasas"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Cotización"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
